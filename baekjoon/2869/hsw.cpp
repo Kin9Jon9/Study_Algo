@@ -8,13 +8,10 @@ using namespace std;
 
 int main(){
   int A,B,V;
-  cin >> A;
-  cin >> B;
-  cin >> V;
+  cin >> A >> B >> V;
 
   int result = ((V-B) / (A-B));
   if(((V-B) % (A-B)) > 0 ) result ++;
 
-  cout << result << endl;
-  
+  cout << result << endl;  
 }
