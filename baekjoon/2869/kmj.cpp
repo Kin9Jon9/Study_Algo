@@ -11,3 +11,4 @@ int main(int argc, char* argv[]) {
 	if ( (V - A) % (A - B) != 0) result++;
 	
 	cout << ++result << endl;
+}
